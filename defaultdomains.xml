@@ -47,6 +47,18 @@
          <fileName>defaultdomains</fileName>
          <logicalDatatype>LOGDT037</logicalDatatype>
       </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="TÜKKI" id="52E39CE8-1FC9-590D-DA47-FB36FC941C68">
+         <createdBy>siim.aus</createdBy>
+         <createdTime>2017-03-17 16:47:41 UTC</createdTime>
+         <comment>Täisarv tükke</comment>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <checkConstraint>
+            <implementationDef dbType="Generic Constraint" definition="&amp;gt;=0"/>
+         </checkConstraint>
+      </Domain>
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="AEG" id="5C0044D9-0C9A-B4FF-97AC-A1063186EA56">
          <createdBy>siim.aus</createdBy>
          <createdTime>2017-03-17 11:30:23 UTC</createdTime>
