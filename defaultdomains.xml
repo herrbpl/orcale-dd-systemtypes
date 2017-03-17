@@ -1,0 +1,24 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
+   <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="ISIKUKOOD" id="4601BC67-F97A-4707-CE99-50FF983E0FAD">
+         <createdBy>siim.aus</createdBy>
+         <createdTime>2017-03-16 14:34:02 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <importedID>4601BC67-F97A-4707-CE99-50FF983E0FAD</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>11 CHAR</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
+         <createdBy>siim.aus</createdBy>
+         <createdTime>2017-03-16 13:20:53 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <importedID>DOM3000004</importedID>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT017</logicalDatatype>
+      </Domain>
+   </domains>
+</DomainFile>
