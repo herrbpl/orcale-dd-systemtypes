@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <dr_custom_scripts>
+	<scr id="09522215-39E1-3395-53EB-686D97CF5097" name="Rule_1" object="Table" engine="Oracle Nashorn" type="Warning" var="table" library="Lib_1" method="Replace Estonian Characters" purpose="validation" >
+		<script>
+			<![CDATA[]]>
+		</script>
+	</scr>
 
+	<lib id="893B812B-60F2-1330-797D-F76387441063" name="Lib_1" engine="Oracle Nashorn" methods="Replace Estonian Characters" >
+		<script>
+			<![CDATA[tables = model.getTableSet().toArray();]]>
+		</script>
+	</lib>
 
 </dr_custom_scripts>
