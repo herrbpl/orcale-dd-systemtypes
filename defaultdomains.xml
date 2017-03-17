@@ -1,6 +1,15 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
 <DomainFile class="oracle.dbtools.crest.model.design.DomainFileWrapper" fileName="defaultdomains">
    <domains>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="RIIGI KOOD" id="058EBED3-25A0-1628-E886-BF0AB0D0B397">
+         <createdBy>siim.aus</createdBy>
+         <createdTime>2017-03-17 11:09:00 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>3</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="ISIKUKOOD" id="4601BC67-F97A-4707-CE99-50FF983E0FAD">
          <createdBy>siim.aus</createdBy>
          <createdTime>2017-03-16 14:34:02 UTC</createdTime>
@@ -9,7 +18,98 @@
          <avTSortOrder>0</avTSortOrder>
          <dataTypeSize>11 CHAR</dataTypeSize>
          <fileName>defaultdomains</fileName>
-         <logicalDatatype>LOGDT017</logicalDatatype>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="KOGUS" id="4BCBC6C0-DB0E-AC6A-472F-FA89D736A7FC">
+         <createdBy>siim.aus</createdBy>
+         <createdTime>2017-03-17 12:09:52 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypePrecision>3</dataTypePrecision>
+         <dataTypeScale>10</dataTypeScale>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT026</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="RAHA" id="4FB01563-999B-64E6-21D6-EDBD23955B9A">
+         <createdBy>siim.aus</createdBy>
+         <createdTime>2017-03-17 11:55:30 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT043</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="DOKUMENDI NUMBER" id="4FD74815-9FE5-EC3A-0D0D-AA52612FFC0E">
+         <createdBy>siim.aus</createdBy>
+         <createdTime>2017-03-17 11:27:48 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>15</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="AEG" id="5C0044D9-0C9A-B4FF-97AC-A1063186EA56">
+         <createdBy>siim.aus</createdBy>
+         <createdTime>2017-03-17 11:30:23 UTC</createdTime>
+         <comment>Kuupäev koos ajaga</comment>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="NIMI" id="5FC0FCA0-A9BD-1174-F4D5-B1A8BED63B40">
+         <createdBy>siim.aus</createdBy>
+         <createdTime>2017-03-17 09:06:05 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>100</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="KIRJELDUS" id="63B651AE-27B9-5D28-F6D5-4F0EDB64C6DA">
+         <createdBy>siim.aus</createdBy>
+         <createdTime>2017-03-17 13:09:55 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="STAATUS" id="795E3930-C1C3-6F49-F44D-A8FEFAF8A29D">
+         <createdBy>siim.aus</createdBy>
+         <createdTime>2017-03-17 13:39:21 UTC</createdTime>
+         <comment>Staatus numbrina. </comment>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <defaultValue>0</defaultValue>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="TOOTE KOOD" id="94F44753-0FD9-2B54-9AF0-5930DAB702A4">
+         <createdBy>siim.aus</createdBy>
+         <createdTime>2017-03-17 11:53:29 UTC</createdTime>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>15</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="ID" id="A284526B-A788-9A6E-73E8-A3BAA1CF19DC">
+         <createdBy>siim.aus</createdBy>
+         <createdTime>2017-03-17 10:51:41 UTC</createdTime>
+         <comment>Unique identifier for entity, sequential </comment>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Domain>
+      <Domain class="oracle.dbtools.crest.model.design.Domain" name="AADRESS" id="CF8C6EFD-5A7C-0851-FE62-5CA78FB27F9D">
+         <createdBy>siim.aus</createdBy>
+         <createdTime>2017-03-17 13:26:51 UTC</createdTime>
+         <comment>Aadress tekstina</comment>
+         <ownerDesignName>System</ownerDesignName>
+         <avTSortOrder>0</avTSortOrder>
+         <dataTypeSize>1024</dataTypeSize>
+         <fileName>defaultdomains</fileName>
+         <logicalDatatype>LOGDT037</logicalDatatype>
       </Domain>
       <Domain class="oracle.dbtools.crest.model.design.Domain" name="Unknown" id="DOM3000004">
          <createdBy>siim.aus</createdBy>
